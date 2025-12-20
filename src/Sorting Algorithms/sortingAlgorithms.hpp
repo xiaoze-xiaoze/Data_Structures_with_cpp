@@ -42,7 +42,9 @@ void bubbleSort(std::vector<T>& vec, Comparator comp) {
      适用场景：小规模数据，移动成本较高的场景
  */
 template<typename T, typename Comparator>
-static void selectionSort(std::vector<T>& vec, Comparator comp);
+void selectionSort(std::vector<T>& vec, Comparator comp) {
+
+}
 
 /*
  插入排序 (Insertion Sort)：
