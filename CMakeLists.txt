@@ -15,7 +15,7 @@ endif()
 
 # 头文件搜索路径
 include_directories(${CMAKE_SOURCE_DIR})
-include_directories(${CMAKE_SOURCE_DIR}/scr)
+include_directories(${CMAKE_SOURCE_DIR}/src)
 
 # 收集所有源文件
 file(GLOB_RECURSE SCR_SRC "${CMAKE_SOURCE_DIR}/src/*.cpp")

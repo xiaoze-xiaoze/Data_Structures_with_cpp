@@ -6,7 +6,7 @@
 #include <optional>
 #include <algorithm>
 #include "../Set/UnionFindSet.cpp"
-#include "../Error.hpp"
+#include "../Error/Error.hpp"
 
 template<typename V, typename E>
 class AdjacencyMatrixGraph {

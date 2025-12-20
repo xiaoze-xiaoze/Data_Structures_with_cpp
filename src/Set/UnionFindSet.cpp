@@ -1,6 +1,6 @@
 #include <vector>
 #include <algorithm>
-#include "../Error.hpp"
+#include "../Error/Error.hpp"
 
 template<typename T>
 class UnionFindSet {

@@ -2,7 +2,7 @@
 #include <stack>
 #include <queue>
 #include <functional>
-#include "../Error.hpp"
+#include "../Error/Error.hpp"
 
 template<typename T>
 class BinaryTree {
