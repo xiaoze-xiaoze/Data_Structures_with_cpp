@@ -64,7 +64,7 @@ void heapify(std::vector<T>& vec, int n, int i, Comparator comp) {
 
 /*
  冒泡排序 (Bubble Sort)：
-     时间复杂度：O(n²) 最坏/平均情况，O(n) 最好情况（已排序）
+     时间复杂度：最坏/平均情况 O(n²) ，最好情况（已排序）O(n) 
      空间复杂度：O(1)
      稳定性：稳定
      原地排序：是
@@ -87,7 +87,7 @@ void bubbleSort(std::vector<T>& vec, Comparator comp) {
 
 /*
  选择排序 (Selection Sort)：
-     时间复杂度：O(n²) 所有情况
+     时间复杂度：所有情况 O(n²) 
      空间复杂度：O(1)
      稳定性：不稳定
      原地排序：是
@@ -112,7 +112,7 @@ void selectionSort(std::vector<T>& vec, Comparator comp) {
 
 /*
  插入排序 (Insertion Sort)：
-     时间复杂度：O(n²) 最坏/平均情况，O(n) 最好情况（已排序）
+     时间复杂度：最坏/平均情况 O(n²) ，最好情况（已排序） O(n) 
      空间复杂度：O(1)
      稳定性：稳定
      原地排序：是
@@ -159,7 +159,7 @@ void shellSort(std::vector<T>& vec, Comparator comp) {
 
 /*
  归并排序 (Merge Sort)：
-     时间复杂度：O(n log n) 所有情况
+     时间复杂度：所有情况 O(n log n) 
      空间复杂度：O(n)
      稳定性：稳定
      原地排序：否（需要额外空间）
@@ -181,7 +181,7 @@ void mergeSort(std::vector<T>& vec, Comparator comp) {
 
 /*
  快速排序 (Quick Sort)：
-     时间复杂度：O(n log n) 平均情况，O(n²) 最坏情况
+     时间复杂度：平均情况 O(n log n) ，最坏情况 O(n²) 
      空间复杂度：O(log n) ~ O(n)（递归栈空间）
      稳定性：不稳定
      原地排序：是
@@ -202,7 +202,7 @@ void quickSort(std::vector<T>& vec, Comparator comp) {
 
 /*
  堆排序 (Heap Sort)：
-     时间复杂度：O(n log n) 所有情况
+     时间复杂度：所有情况 O(n log n) 
      空间复杂度：O(1)
      稳定性：不稳定
      原地排序：是
